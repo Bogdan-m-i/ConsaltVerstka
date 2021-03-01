@@ -1,0 +1,42 @@
+.container {
+    box-sizing: content-box;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 980px;
+    min-width: 980px;
+}
+
+section, .nav, .footer {
+    min-width: 1000px;
+}
+
+// .container-fluid {
+//     box-sizing: content-box;
+//     min-width: 980px;
+//     padding-right: 10px;
+//     padding-left: 10px;
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+// }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-left {
+    width: 350px;
+}
+
+.col-right {
+    width: 570px;
+}
